@@ -1,0 +1,33 @@
+body {
+  background-color: #eeeeee;
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #393e46;
+}
+
+.fas {
+  color: #393e46;
+}
+
+.display-3 {
+  font-family: 'Rowdies', cursive;
+  color: #222831;
+}
+
+.lead {
+  font-family: 'PT Serif', serif;
+}
+
+.register-form, .login-form {
+  margin: 10rem auto;
+  width: 40rem;
+}
