@@ -10,8 +10,9 @@ body {
 .secret-text {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
-  background-color: #393e46;
+  color: #222831;
+  background-color: #32e0c4;
+  font-family: 'PT Serif', serif;
 }
 
 .fas {
@@ -27,7 +28,12 @@ body {
   font-family: 'PT Serif', serif;
 }
 
-.register-form, .login-form {
+.register-form,
+.login-form {
   margin: 10rem auto;
   width: 40rem;
+}
+
+input[type="text"] {
+  font-size: 1.5rem;
 }
