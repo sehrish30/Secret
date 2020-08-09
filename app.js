@@ -83,7 +83,7 @@ passport.deserializeUser((id, done) => {
 passport.use(new GoogleStrategy({
         clientID: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
-        callbackURL: "https://damp-island-17292.herokuapp.com/auth/google/secrets",
+        callbackURL: "https://secret-posts.herokuapp.com/auth/google/secrets",
         userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
 
     },
@@ -126,7 +126,7 @@ facebook passport
 passport.use(new FacebookStrategy({
         clientID: process.env.FACEBOOK_APP_ID,
         clientSecret: process.env.FACEBOOK_APP_SECRET,
-        callbackURL: "https://damp-island-17292.herokuapp.com/auth/facebook/secrets",
+        callbackURL: "https://secret-posts.herokuapp.com/auth/facebook/secrets",
         profileFields: ['id', 'emails', 'name'] //This
     },
     (accessToken, refreshToken, profile, done) => {
